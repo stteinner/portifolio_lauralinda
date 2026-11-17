@@ -5,14 +5,15 @@ import {
 } from "lucide-react";
 
 const githubUrl = "https://github.com/stteinner/portifolio_lauralinda";
+const githubProfileUrl = "https://github.com/stteinner";
 
 const skills = [
-  { name: "HTML5", detail: "Estrutura de páginas", icon: Braces },
-  { name: "CSS3", detail: "Estilização e layouts", icon: Palette },
-  { name: "JavaScript", detail: "Interatividade", icon: Code2 },
-  { name: "React", detail: "Interfaces com componentes", icon: Code2 },
-  { name: "Git & GitHub", detail: "Versionamento de código", icon: Github },
-  { name: "Design responsivo", detail: "Adaptação para telas", icon: Smartphone },
+  { name: "HTML", detail: "Estrutura de páginas web", icon: Braces },
+  { name: "CSS", detail: "Estilização de interfaces", icon: Palette },
+  { name: "JavaScript", detail: "Lógica e interatividade", icon: Code2 },
+  { name: "Front-end", detail: "Interfaces para usuários", icon: Smartphone },
+  { name: "Back-end", detail: "Conhecendo a lógica dos sistemas", icon: Code2 },
+  { name: "Desenvolvimento de sistemas", detail: "Minha área de formação", icon: Github },
 ];
 
 const navItems = [
@@ -58,14 +59,13 @@ function App() {
             <p className="eyebrow"><span className="status-dot" /> PORTFÓLIO • DESENVOLVIMENTO WEB</p>
             <h1>Transformando ideias em <span>experiências digitais.</span></h1>
             <p className="hero-lead">
-              Olá! Sou uma desenvolvedora em formação, apaixonada por tecnologia,
-              criatividade e por aprender a construir soluções para a web.
+              Olá! Meu nome é Laura Steiner. Estudo Desenvolvimento de Sistemas e gosto da área de tecnologia, especialmente de aprender como ideias se transformam em soluções digitais.
             </p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projetos">Conheça meu trabalho <ArrowUpRight size={18} /></a>
               <a className="button button-quiet" href="#sobre">Um pouco sobre mim <ArrowDown size={17} /></a>
             </div>
-            <div className="hero-note"><Heart size={15} fill="currentColor" /> Aprendendo, criando e evoluindo a cada projeto.</div>
+            <div className="hero-note"><Heart size={15} fill="currentColor" /> Gentileza, esforço e vontade de aprender fazem parte da minha jornada.</div>
           </div>
 
           <div className="hero-visual" aria-label="Ilustração decorativa de código">
@@ -98,12 +98,12 @@ function App() {
             <div className="about-highlight">
               <span className="about-icon"><Heart size={25} /></span>
               <h3>Curiosidade que vira código.</h3>
-              <p>Gosto de explorar ideias, entender como as coisas funcionam e transformar aprendizados em projetos.</p>
+              <p>Sou uma pessoa gentil e esforçada, que gosta de tecnologia e está sempre buscando aprender coisas novas.</p>
             </div>
             <div className="about-text">
-              <p>Estou construindo minha trajetória na área de desenvolvimento web. Tenho estudado fundamentos da programação e criação de interfaces, sempre buscando unir funcionalidade, organização e uma boa experiência para quem usa.</p>
-              <p>Este espaço reúne um pouco do que estou aprendendo e dos projetos que desenvolvo durante minha jornada.</p>
-              <div className="about-tags"><span>criatividade</span><span>aprendizado contínuo</span><span>tecnologia</span></div>
+              <p>Atualmente, estudo Desenvolvimento de Sistemas e venho aprendendo HTML, CSS e JavaScript, além de conhecer melhor as áreas de front-end e back-end. Gosto de tecnologia e de descobrir como os sistemas são criados.</p>
+              <p>Meu objetivo é aprimorar meus conhecimentos, aprender a utilizar melhor as ferramentas da área e ganhar experiência desenvolvendo projetos.</p>
+              <div className="about-tags"><span>gentileza</span><span>dedicação</span><span>tecnologia</span></div>
             </div>
           </div>
         </section>
@@ -112,8 +112,8 @@ function App() {
           <div className="section-wrap">
             <div className="section-heading">
               <p className="eyebrow">02 / HABILIDADES</p>
-              <h2>Ferramentas que estou <span>explorando.</span></h2>
-              <p className="section-description">Tecnologias e conhecimentos que fazem parte dos meus estudos.</p>
+              <h2>Conhecimentos que estou <span>desenvolvendo.</span></h2>
+              <p className="section-description">Áreas e linguagens que fazem parte da minha formação em Desenvolvimento de Sistemas.</p>
             </div>
             <div className="skills-grid">
               {skills.map(({ name, detail, icon: Icon }) => (
@@ -129,7 +129,7 @@ function App() {
 
         <section className="section-wrap projects-section" id="projetos">
           <div className="section-heading projects-heading">
-            <div><p className="eyebrow">03 / PROJETOS</p><h2>Pequenos passos, <span>grandes ideias.</span></h2></div>
+            <div><p className="eyebrow">03 / PROJETOS</p><h2>Projetos e experiências <span>da minha jornada.</span></h2></div>
             <a className="text-link" href={githubUrl} target="_blank" rel="noreferrer">Ver repositório no GitHub <ArrowUpRight size={17} /></a>
           </div>
           <article className="project-card">
@@ -138,17 +138,17 @@ function App() {
                 <div className="window-dots"><i /><i /><i /></div>
                 <div className="project-preview">
                   <span className="preview-flower">✿</span>
-                  <span className="preview-title">meu espaço<br />na web<span>♡</span></span>
-                  <span className="preview-caption">PORTFÓLIO PESSOAL</span>
+                  <span className="preview-title">Inova Tec<br />Assinatura Digital<span>♡</span></span>
+                  <span className="preview-caption">PROJETO INOVA TEC</span>
                 </div>
               </div>
               <span className="project-orbit">✦</span>
             </div>
             <div className="project-info">
-              <span className="project-label">PROJETO PESSOAL • 01</span>
-              <h3>Meu portfólio</h3>
-              <p>Uma página pessoal para apresentar minha jornada, minhas habilidades e meus projetos de desenvolvimento web.</p>
-              <div className="tech-list"><span>React</span><span>TypeScript</span><span>CSS</span><span>Vite</span></div>
+              <span className="project-label">PROJETO / EXPERIÊNCIA • 01</span>
+              <h3>Inova Tec — Assinatura Digital</h3>
+              <p>Projeto ou atividade relacionado à assinatura digital, que faz parte das experiências da minha trajetória de aprendizado em tecnologia.</p>
+              <div className="tech-list"><span>Tecnologia</span><span>Inovação</span><span>Assinatura digital</span></div>
               <a className="project-link" href={githubUrl} target="_blank" rel="noreferrer">Acessar código <ArrowUpRight size={17} /></a>
             </div>
           </article>
@@ -162,14 +162,14 @@ function App() {
               <h2>Vamos criar algo <span>legal juntos?</span></h2>
               <p>Você pode acompanhar meus estudos e projetos pelo GitHub.</p>
             </div>
-            <a className="button button-light" href={githubUrl} target="_blank" rel="noreferrer"><Github size={19} /> Meu GitHub <ArrowUpRight size={17} /></a>
+            <a className="button button-light" href={githubProfileUrl} target="_blank" rel="noreferrer"><Github size={19} /> Meu GitHub <ArrowUpRight size={17} /></a>
           </div>
         </section>
       </main>
 
       <footer className="site-footer section-wrap">
         <a className="brand footer-brand" href="#inicio"><span className="brand-mark"><Code2 size={17} /></span><span>meu<span className="brand-accent">portfólio</span><span className="brand-heart">♡</span></span></a>
-        <p>Feito com carinho, curiosidade e muitas linhas de código.</p>
+        <p>Laura Steiner • Estudante de Desenvolvimento de Sistemas</p>
         <a className="back-top" href="#inicio" aria-label="Voltar ao topo">↑</a>
       </footer>
     </div>
