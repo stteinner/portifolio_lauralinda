@@ -102,7 +102,7 @@ function App() {
             </div>
             <div className="about-text">
               <p>Atualmente, estudo Desenvolvimento de Sistemas e venho aprendendo HTML, CSS e JavaScript, além de conhecer melhor as áreas de front-end e back-end. Gosto de tecnologia e de descobrir como os sistemas são criados.</p>
-              <p>Meu objetivo é aprimorar meus conhecimentos, aprender a utilizar melhor as ferramentas da área e ganhar experiência desenvolvendo projetos.</p>
+              <p>Meu objetivo é aprimorar meus conhecimentos, aprender a manusear melhor as ferramentas e tecnologias da área e ganhar experiência desenvolvendo projetos.</p>
               <div className="about-tags"><span>gentileza</span><span>dedicação</span><span>tecnologia</span></div>
             </div>
           </div>
