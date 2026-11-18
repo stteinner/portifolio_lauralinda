@@ -1,0 +1,5 @@
+.contact{background:var(--dark);color:white;text-align:center;overflow:hidden}
+.contact .eyebrow{justify-content:center}.contact h2{font-size:clamp(2.8rem,7vw,5.7rem);letter-spacing:-.08em;line-height:1.02;max-width:800px;margin:0 auto 22px}
+.contact p{color:#bdaebb;max-width:510px;margin:0 auto 30px;line-height:1.8}
+.contact .btn-outline{background:transparent;color:white;border-color:#604657}
+.contact-cat{font-size:3rem;margin-bottom:22px;display:inline-block;animation:float 3s ease-in-out infinite}

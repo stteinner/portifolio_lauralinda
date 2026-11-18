@@ -1,0 +1,5 @@
+nav{position:fixed;z-index:100;top:0;left:0;width:100%;height:76px;padding:0 7vw;display:flex;align-items:center;justify-content:space-between;background:#fffafdde;backdrop-filter:blur(16px);border-bottom:1px solid #f5e3ec}
+.logo{font-weight:800;font-size:1.3rem;letter-spacing:-1px}.logo span{color:var(--pink)}
+.navlinks{display:flex;gap:30px;align-items:center;font-size:.82rem;color:#655462}.navlinks a{transition:color .2s}.navlinks a:hover{color:var(--pink)}
+.nav-cta{padding:11px 18px;background:var(--ink);color:white;border-radius:99px;font-size:.78rem;font-weight:700}
+.menu-btn{display:none;border:0;background:none;font-size:1.5rem;color:var(--ink)}

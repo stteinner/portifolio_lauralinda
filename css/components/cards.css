@@ -1,0 +1,15 @@
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.filter{border:1px solid var(--line);background:white;color:var(--muted);padding:9px 15px;border-radius:99px;font-size:.75rem;font-weight:700;transition:.2s}
+.filter.active,.filter:hover{background:var(--pink);border-color:var(--pink);color:white}
+.repo-count{font: .72rem var(--mono);color:var(--muted)}
+.project-card{border:1px solid var(--line);border-radius:20px;padding:25px;background:#fffafd;min-height:255px;display:flex;flex-direction:column;transition:transform .3s,border-color .3s,box-shadow .3s;position:relative;overflow:hidden}
+.project-card:after{content:"✦";position:absolute;right:18px;top:13px;color:#f7c5da;font-size:1.6rem}
+.project-card:hover{transform:translateY(-7px);border-color:#f49bc0;box-shadow:0 20px 45px #c94e8412}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}
+.repo-icon{width:42px;height:42px;border-radius:13px;background:var(--pale);display:grid;place-items:center;color:var(--pink);font-size:1.15rem}
+.repo-type{font: .62rem var(--mono);color:var(--pink);text-transform:uppercase;letter-spacing:1px}
+.project-card h3{font-size:1.08rem;letter-spacing:-.04em;margin-bottom:10px;overflow-wrap:anywhere}
+.project-card p{font-size:.81rem;color:var(--muted);line-height:1.65;margin-bottom:20px}
+.card-bottom{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.language{font: .68rem var(--mono);color:#8d7584}.repo-link{font-size:.76rem;font-weight:800;color:var(--pink)}
+.loading{grid-column:1/-1;text-align:center;padding:50px;color:var(--muted)}

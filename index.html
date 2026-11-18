@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#ff4f9a">
+<meta name="description" content="Portfólio de desenvolvimento de software de stteinner. Projetos, tecnologias e experiências.">
+<title>stteinner — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="cursor" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div><div class="noise"></div>
+<nav>
+  <a class="logo" href="#inicio">stteinner<span>.</span></a>
+  <button class="menu-btn" aria-label="Abrir menu" id="menuBtn">☰</button>
+  <div class="navlinks" id="navlinks"><a href="#inicio">Início</a><a href="#projetos">Projetos</a><a href="#habilidades">Habilidades</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></div>
+  <a class="nav-cta" href="https://github.com/stteinner" target="_blank" rel="noreferrer">GitHub ↗</a>
+</nav>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-content reveal">
+    <div class="eyebrow">Portfólio • Desenvolvedor em evolução</div>
+    <h1>Ideias que viram <span class="pink">código.</span></h1>
+    <p class="hero-copy">Olá! Este é meu espaço na internet. Aqui reúno projetos, experimentos e aprendizados em desenvolvimento web — do frontend às APIs e ao backend.</p>
+    <div class="actions"><a class="btn btn-primary" href="#projetos">Explorar projetos <span>↘</span></a><a class="btn btn-outline" href="https://github.com/stteinner" target="_blank" rel="noreferrer">Ver GitHub ↗</a></div>
+    <div class="hero-meta"><span>✳ Desenvolvimento web</span><span>✳ Aprendizado contínuo</span><span>✳ Criatividade</span></div>
+  </div>
+  <div class="hero-art reveal">
+    <div class="orbit"></div><div class="blob"><span class="cat">🐱</span><span class="sunglasses">🕶️</span></div>
+    <div class="sticker one">♡ code with style</div><div class="sticker two">status: criando ✦</div>
+  </div>
+</section>
+
+<section class="projects" id="projetos">
+  <div class="section-head reveal"><div><div class="eyebrow">Meu trabalho</div><h2>Projetos<span class="pink">.</span></h2></div><p>Uma seleção de repositórios públicos do GitHub. A lista é carregada diretamente do perfil para acompanhar novos projetos.</p></div>
+  <div class="project-toolbar reveal"><div class="filters"><button class="filter active" data-filter="all">Todos</button><button class="filter" data-filter="JavaScript">JavaScript</button><button class="filter" data-filter="HTML">HTML</button><button class="filter" data-filter="other">Outros</button></div><span class="repo-count" id="repoCount">Carregando repositórios...</span></div>
+  <div class="project-grid" id="projectGrid"><div class="loading">🐾 Buscando projetos no GitHub...</div></div>
+</section>
+
+<section class="skills" id="habilidades">
+  <div class="skills-layout">
+    <div class="reveal"><div class="eyebrow">Caixa de ferramentas</div><div class="section-head" style="display:block;margin-bottom:20px"><h2>Áreas &<br>tecnologias<span class="pink">.</span></h2></div><p class="skills-intro">Os repositórios públicos indicam uma prática voltada ao desenvolvimento de aplicações web, com experiências em interfaces, formulários e construção de APIs. As tecnologias abaixo refletem os sinais encontrados no perfil e podem variar de projeto para projeto.</p></div>
+    <div class="skill-list reveal">
+      <div class="skill"><i>JS</i>JavaScript</div><div class="skill"><i>⌘</i>HTML</div>
+      <div class="skill"><i>◈</i>Frontend</div><div class="skill"><i>⚙</i>Backend & APIs</div>
+      <div class="skill"><i>▤</i>Formulários web</div><div class="skill"><i>↔</i>Integração de sistemas</div>
+      <div class="skill"><i>✧</i>Interfaces web</div><div class="skill"><i>⌁</i>Lógica de programação</div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="sobre">
+  <div class="about-cat reveal"><span class="cat">🐈</span><span class="sunglasses">🕶️</span></div>
+  <div class="about-text reveal"><div class="eyebrow">Um pouco sobre o perfil</div><h2>Construindo, testando e <span class="pink">evoluindo.</span></h2>
+  <p>O perfil <strong>@stteinner</strong> reúne projetos públicos de desenvolvimento web, incluindo repositórios de frontend, backend, formulários e APIs. Este portfólio organiza esses trabalhos em um só lugar para facilitar a exploração.</p>
+  <p>Cada projeto representa uma oportunidade de praticar conceitos, experimentar soluções e transformar ideias em aplicações. O código-fonte e os detalhes de cada repositório podem ser consultados diretamente no GitHub.</p>
+  <div class="about-tags"><span>Desenvolvimento web</span><span>Projetos práticos</span><span>Aprendizado</span><span>🐾 Cat-powered</span></div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="contact-cat">🐱🕶️</div><div class="eyebrow">Vamos nos conectar?</div>
+  <h2>Tem uma ideia?<br><span class="pink">Bora codar.</span></h2>
+  <p>Confira os repositórios, acompanhe os próximos projetos ou entre em contato pelo perfil do GitHub.</p>
+  <div class="actions" style="justify-content:center"><a class="btn btn-primary" href="https://github.com/stteinner" target="_blank" rel="noreferrer">Acessar GitHub ↗</a><a class="btn btn-outline" href="#inicio">Voltar ao topo ↑</a></div>
+</section>
+</main>
+<footer><span>© <span id="year"></span> stteinner — feito com carinho e café.</span><span>HTML • CSS • JavaScript <a href="https://github.com/stteinner">GitHub ↗</a></span></footer>
+<button class="backtop" id="backtop" aria-label="Voltar ao topo">↑</button>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

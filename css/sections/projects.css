@@ -1,0 +1,6 @@
+.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:48px}
+.section-head h2{font-size:clamp(2.3rem,5vw,4rem);letter-spacing:-.07em;line-height:1}
+.section-head p{color:var(--muted);max-width:390px;line-height:1.7;font-size:.9rem}
+.projects{background:white}
+.project-toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:25px;gap:20px;flex-wrap:wrap}
+.project-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}

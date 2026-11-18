@@ -1,0 +1,16 @@
+/* Ponto de entrada dos estilos. Importe novos arquivos aqui, por responsabilidade. */
+@import url("./base/variables.css");
+@import url("./base/reset.css");
+@import url("./layout/navigation.css");
+@import url("./layout/sections.css");
+@import url("./layout/footer.css");
+@import url("./components/cursor.css");
+@import url("./components/buttons.css");
+@import url("./components/cards.css");
+@import url("./sections/hero.css");
+@import url("./sections/projects.css");
+@import url("./sections/skills.css");
+@import url("./sections/about.css");
+@import url("./sections/contact.css");
+@import url("./utilities/animations.css");
+@import url("./utilities/responsive.css");

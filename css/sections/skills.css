@@ -1,0 +1,6 @@
+.skills{background:var(--pale)}
+.skills-layout{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+.skills-intro{font-size:1rem;color:var(--muted);line-height:1.9;max-width:490px}
+.skill-list{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.skill{background:white;border:1px solid #f5dce8;border-radius:15px;padding:17px;display:flex;align-items:center;gap:12px;font-size:.83rem;font-weight:700}
+.skill i{font-style:normal;width:34px;height:34px;border-radius:10px;background:var(--pale);display:grid;place-items:center;color:var(--pink);font-size:1rem}
