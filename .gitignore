@@ -1,0 +1,11 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores e ferramentas
+.vscode/
+.idea/
+
+# Logs e caches
+*.log
+.cache/
